@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="calculator">
+  <h1 style="color: #030303; text-align: center;font-family: poppins;font-weight: 600;font-size: 30px; "> Calculator</h1>
+  <input type="text" id="result" readonly>
+  <div class="buttons">
+    <button onclick="number('1')">1</button>
+    <button onclick="number('2')">2</button>
+    <button onclick="number('3')">3</button>
+    <button onclick="operation('+')">+</button>
+    <button onclick="number('4')">4</button>
+    <button onclick="number('5')">5</button>
+    <button onclick="number('6')">6</button>
+    <button onclick="operation('-')">-</button>
+    <button onclick="number('7')">7</button>
+    <button onclick="number('8')">8</button>
+    <button onclick="number('9')">9</button>
+    <button onclick="operation('*')">*</button>
+    <button onclick="clearResult()">AC</button>
+    <button onclick="number('0')">0</button>
+    <button onclick="appendDecimal('.')">.</button>
+    <button onclick="operation('/')">/</button>
+    <button onclick="calculate()">=</button>
+  </div>
+</div>
+<footer class="footer">
+  Design by Kawodya Arachchige <a href="https://github.com/KawodyaArachchige">Github</a>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>

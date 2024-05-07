@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+body{
+    background:url("assets/7784095.jpg") no-repeat;
+
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.calculator {
+    top: 100px;
+    width: 550px;
+    margin: 50px auto;
+  //  border: 3px solid #030303;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    //background-color: #DBCA6E;
+    background: url("assets/7784095.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+#result {
+    width: 96%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+
+}
+
+button {
+    padding: 15px;
+    font-size: 28px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: #030303;
+    background-color: #B8E0D7;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #bcbcbc;
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+button.operator {
+    background-color: #ff9f1a;
+    color: #fff;
+}
+
+button.operator:hover {
+    background-color: #ff7f00;
+}
+
+button.operator:active {
+    transform: translateY(1px);
+}
+.footer {
+position: absolute;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+    color: #666;
+    bottom: 40px;
+}
+
+.footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
